@@ -1,6 +1,6 @@
 # Maximum length in the numera system base 10 as usize
 
-This crate offers [`MaxLenBase10AsUsize`] trait that is currently implemented for all primitive integers.
+This crate offers [`MaxLenBase10AsUsize`](https://docs.rs/max_len_base_10_as_usize/latest/max_len_base_10_as_usize/trait.MaxLenBase10AsUsize.html) trait that is currently implemented for all primitive integers.
 
 According to Rust's reference, [primitive numeric integer types][primitive numeric type] in Rust are such:
 
@@ -76,5 +76,3 @@ be dual licensed as above, without any additional terms or conditions.
 </sub>
 
 [primitive numeric type]: https://doc.rust-lang.org/reference/types/numeric.html
-[core::mem::size_of]: https://doc.rust-lang.org/stable/core/mem/fn.size_of.html
-[type promotion]: https://en.wikipedia.org/wiki/Type_conversion#Type_promotion
