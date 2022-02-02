@@ -4,6 +4,14 @@
 /// that stores maximum length of string representations of values
 /// of the type-impementer in the numeral system base 10. That 
 /// length is stored as a value of type [usize].
+/// 
+/// # Example
+/// 
+/// ```
+/// use max_len_base_10_as_usize::MaxLenBase10AsUsize as MaxLen;
+/// assert_eq!(u8::MAX_LEN_BASE_10_AS_USIZE, <u8 as MaxLen>::MAX_LEN_BASE_10_AS_USIZE);
+/// assert_eq!(u8::MAX_LEN_BASE_10_AS_USIZE, 3usize);
+///```
 pub trait MaxLenBase10AsUsize {
     const MAX_LEN_BASE_10_AS_USIZE: usize;
 }

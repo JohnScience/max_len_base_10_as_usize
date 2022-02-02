@@ -57,6 +57,7 @@ You can notice that `MaxLenBase10AsUsize` is quite long to type and it contains 
 ```rust
   use max_len_base_10_as_usize::MaxLenBase10AsUsize as MaxLen;
   assert_eq!(u8::MAX_LEN_BASE_10_AS_USIZE, <u8 as MaxLen>::MAX_LEN_BASE_10_AS_USIZE);
+  assert_eq!(u8::MAX_LEN_BASE_10_AS_USIZE, 3usize);
 ```
 
 # License
