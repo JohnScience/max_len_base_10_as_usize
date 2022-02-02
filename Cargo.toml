@@ -1,0 +1,26 @@
+[package]
+name = "max_len_base_10_as_usize"
+version = "0.1.0"
+authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
+edition = "2021"
+rust-version = "1.57.0" # https://github.com/foresterre/cargo-msrv
+description = "Trait offering constant maximum lengths of primitive integers as usize"
+documentation = "https://docs.rs/max_len_base_10_as_usize"
+readme = "README.md"
+repository = "https://github.com/JohnScience/max_len_base_10_as_usize"
+license = "MIT OR Apache-2.0"
+# license-file | not needed
+keywords = ["maths", "traits", "digits", "number", "length"]
+categories = ["mathematics", "no-std"] # https://crates.io/category_slugs
+# workspace | not needed
+# build | not needed
+# links | not needed
+# exclude | not needed
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
