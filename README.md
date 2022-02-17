@@ -1,4 +1,4 @@
-# Maximum length in the numera system base 10 as usize
+# Maximum length in the numeral system base 10 as usize
 
 This crate offers [`MaxLenBase10AsUsize`](https://docs.rs/max_len_base_10_as_usize/latest/max_len_base_10_as_usize/trait.MaxLenBase10AsUsize.html) trait that is currently implemented for all primitive integers.
 
